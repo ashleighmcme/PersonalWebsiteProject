@@ -1,7 +1,109 @@
-.home-content img {
+/* CSS code */
+body {
+  background-color: #786e75; /* background color for all pages */
+  display:grid;
+  grid-template-rows: auto
+  padding top 100vh;
+  padding-bottom: 100vh;
+
+  }
+
+  .section {
+    margin: 5em 15em 0
+    /*margin-bottom: 20px;*/
+  }
+
+  .heading {
+   /* background-color: #f0f0f0; */
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: x-large;
+   text-align:center;
+   color:#423c40
+  
+  }
+
+  /* how to make cards for info*/
+.cards {
+    display: grid;
+    /* padding: 40px;
+    border-radius: 40px ;
+    margin: 20px 0 50px;
+    background-color: #412538;
+    justify-content: center;
+    grid-template-rows: 1fr; */
+    grid-template-columns:repeat (3, 45%);
+    gap: 20px;
+    padding: 20px;
+    }
+  
+.card{
+  background-color: #412538;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards-heading {
+  
+}
+.cards-p{
+  font-size: 24;
+}
+.m1h2 {
+  color:#786e75;
+  text-align: center;
+  font-size: 2em;  
+}
+.m1 img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  
+}
+.m1p1{
+  float: left;
+  color:#786e75;
+  
+  
+
+}
+
+.cards-photo{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+/* .m1{
+  display: flex;
+  align-items: center;
+  padding: 30px 15% 0;
+} */
+
+  .section2 {
+    background-color: #f0f0f0; 
+    color: #210a0a; 
+    grid-template-columns:auto;
+  }
+
+  .section3 {
+    background-color: #f0f0f0; 
+    color: #210a0a; 
+  }
+
+
+/* .home-content img {
     width: 200px;
     height: 150px;
     float: left;
     margin-right: 23px;
     position: relative;
   }
+  .section img {
+    width:200px;
+    height: 150px;
+    float: left;
+    margin-right: 23px;
+    margin-right: 25px;
+    position: relative;
+  } */
