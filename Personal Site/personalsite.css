@@ -16,7 +16,7 @@
   display: flex;
 }
 
-.navbar-links li {
+.navbar-links li a {
   list-style-type: none;
   margin:0;
   padding:0;
@@ -34,6 +34,50 @@
 .nav-content{
   padding: 20px;
   color: #ffffff
+}
+.contact-button {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* contact popup button */
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background-color: #786e75;
+  padding: 20px;
+  z-index: 9999;
+  color:#f2f2f2
+}
+
+
+.popup form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .nav-image-container {
@@ -55,9 +99,7 @@
   font-size: x-large;
   text-align:center;
   color:#423c40
- 
  }
-
 .home-quote-container {
   flex: 1;
   display: flex;
@@ -66,14 +108,12 @@
   background-color: #412538; 
   padding: 20px;
 }
-
 .home-quote {
   font-style: italic;
   color: #786e75;
   text-align: center;
   font-size: x-large; 
 }
-
 .home-photo-container {
   flex: 1;
   display: flex;
@@ -81,7 +121,6 @@
   align-items: center; 
   padding: 20px;
 }
-
 .home-photo {
   max-width: 45vw; 
   max-height: 60vh;
@@ -89,19 +128,16 @@
   height: auto; 
   border: 5px solid #412538; 
 }
-
 .container {
   display: flex;
   flex-direction: column;
   gap: 20px; /* Space between boxes */
 }
-
 .box {
   background-color: #412538;
   border-radius: 10px;
   padding: 20px;
 }
-
 body {
   background-color: #786e75; /* background color for all pages */
   display:grid;
@@ -121,26 +157,21 @@ body {
    color:#423c40
   
   }
-
   /* how to make cards for info*/
   .box {
   background-color: #412538;
   border-radius: 10px;
   padding: 20px;
 } 
-
-  
-.container{
+  .container{
   display:flex
   flex-direction:column;
   gap: 20px;
-}
-  
+}  
  .cardDisplay {
   display:flex;
   align-items: center;
  }
-
  .image-container{
   margin-right: 20px;
  }
@@ -148,7 +179,7 @@ body {
  .card-img{
   width: 200px;
   height: 200px;
-  float: left;
+  float:left;
   border-radius: 20px;
   margin-right: 20px;
  }

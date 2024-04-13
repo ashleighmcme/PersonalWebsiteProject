@@ -1,0 +1,28 @@
+.bookshelf {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .book {
+    width: 100px;
+    height: 150px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 2px solid #000;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
